@@ -9,5 +9,45 @@
 h1,
 h2,
 h3{
-     margin-bottom: ;
+     margin-bottom:20px ;
+}
+a{
+    color:white ;
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+/* header */
+.header{
+    background: #333;
+    overflow: auto;
+}
+.header nav h1{
+    float:left;
+}
+.header nav ul{
+    margin-bottom: 0;
+    
+}
+.menu{
+    float: right;
+    list-style: none;
+    padding: 20px;
+    display: inline-flex;
+   
+
+   
+    
+}
+.header nav ul li {
+    float: left;
+}
+.header nav ul li a {
+    color:white ;
+    padding: 20px;
+    margin-inline:;
+  
 }
