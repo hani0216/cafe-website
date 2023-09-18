@@ -24,6 +24,7 @@ font-family: 'Open Sans', sans-serif;
 .header{
     background: #333;
     overflow: auto;
+    line-height:1.7rem;
 }
 .header nav h1{
     float:left;
@@ -36,18 +37,32 @@ font-family: 'Open Sans', sans-serif;
     float: right;
     list-style: none;
     padding: 20px;
-    display: inline-flex;
-   
-
-   
-    
+    display: flex;
+     
 }
 .header nav ul li {
     float: left;
+    flex-direction:row;
+
+
 }
 .header nav ul li a {
     color:white ;
     padding: 20px;
-    margin-inline:;
+   
   
+}
+.header nav ul li a:hover {
+    background-color: #444;
+  
+}
+
+.title{
+    padding-top: 15px;
+}
+.navList{
+    padding: 10px;
+}
+.active{
+    background-color: #444;
 }
