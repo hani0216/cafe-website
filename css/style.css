@@ -66,3 +66,29 @@ font-family: 'Open Sans', sans-serif;
 .active{
     background-color: #444;
 }
+/*vp*/
+.vp-content{
+    height: 700px;
+    background: url(../images/frame.jpg) center center;
+    background-size: cover;
+    padding-top:170px ;
+    color: white;
+    display: block;
+    
+    
+}
+.vp-content h1 ,.vp-content p , .separator{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    
+}
+.vp-content h1{
+    font-size: 50px;
+}
+.separator{
+    background-color:black;
+    width: 200px;
+    height: 10px;
+    margin: auto;
+}
