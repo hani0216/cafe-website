@@ -23,6 +23,7 @@ body{
     font-family: 'Lato', sans-serif;
 font-family: 'Lumanosimo', cursive;
 font-family: 'Open Sans', sans-serif;
+color: #222;
 }
 /* header */
 .header{
@@ -140,4 +141,5 @@ font-family: 'Open Sans', sans-serif;
 .features{
     padding: 100px 0px;
     overflow: auto;
+    text-align: center;
 }
