@@ -6,6 +6,9 @@
 
 }
 /* general */
+p{
+    margin-bottom: 10px;
+}
 h1,
 h2,
 h3{
@@ -14,6 +17,7 @@ h3{
 a{
     color:white ;
     text-decoration: none;
+    margin-left: 20px;
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -74,6 +78,7 @@ font-family: 'Open Sans', sans-serif;
     padding-top:170px ;
     color: white;
     display: block;
+    text-align: center;
     
     
 }
@@ -90,5 +95,49 @@ font-family: 'Open Sans', sans-serif;
     background-color:black;
     width: 200px;
     height: 10px;
+    margin:20px auto;
+    
+}
+.vp-content p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+.vp-content a{
+    color: black;
+    font-size: 15px;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.btn-primary{
+    background: white;
+}
+.btn-primary:hover{
+   background: black; 
+}
+.vp-content a:hover{
+    color: white;
+    font-size: 15px;
+}
+.container{
+    max-width: 1000px;
+    display: block;
     margin: auto;
+}
+/* features */
+.feature{
+    float: left;
+    width: 50%;
+}
+.features{
+    padding: 100px 0px;
+    overflow: auto;
 }
