@@ -143,3 +143,23 @@ color: #222;
     overflow: auto;
     text-align: center;
 }
+/* person */ 
+.person{
+    height: 400px;
+    background: url(../images/person-1.jpg) center center /cover;
+}
+/* reservation */
+.reservation{
+    padding:100px 0px;
+    display: block;
+    text-align: center;
+}
+my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.desc{
+    padding-right: 400px;
+    padding-left: 400px; 
+    text-align: center;
+}
