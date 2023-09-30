@@ -184,3 +184,26 @@ footer p{
     margin-top:auto;
     
 }
+/*where style */ 
+.where{
+    padding: 100px 0px;
+
+}
+.where-img{
+    float: left;
+    width: 400px;
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-left: 150px;
+
+}
+.where-text{
+    float: right;
+    width: 700px;
+    margin-top: 100px;
+}
+.ft{
+    /*margin-top: 500px;*/
+    clear: both;
+    margin-top: 20px;
+}
